@@ -1,0 +1,22 @@
+.se-quedan, .francos {
+    position: relative;
+}
+
+.copy {
+    position: absolute;
+    right: 10px;
+    bottom: 1px;
+    opacity: 0;
+    font-weight: bold;
+    
+}
+
+.item-lista-1:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    
+}
+
+.item-lista-1:hover .copy {
+    opacity: 1;
+    
+}
